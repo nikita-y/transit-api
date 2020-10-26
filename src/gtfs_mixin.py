@@ -84,5 +84,3 @@ if __name__ == "__main__":
         print("Not existing path: FAIL")
     else:
         print("Not existing path: PASS")
-
-    print(temp.schedules("2204", "2399"))

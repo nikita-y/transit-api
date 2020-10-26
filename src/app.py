@@ -10,11 +10,6 @@ gtfs = GTFS()
 def get_next_schedules():
     origin = request.args.get("origin_station_id")
     destination = request.args.get("destination_station_id")
-    lat = request.args.get("latitude")
-    lng = request.args.get("longitude")
-
-    if (origin == "" or destination == ""):
-        return make_response(jsonify({'error': 'Bad request'}), 400)
 
     schedules = gtfs.schedules(origin, destination)
     return jsonify({'next_schedules': schedules})

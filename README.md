@@ -1,3 +1,4 @@
+![Docker](https://github.com/nikita-y/transit-api/workflows/Docker/badge.svg)
 # Endpoint returns list of ETA and ETD for gitven orgin and destination bus/rail stop codes
 
 ## Notes

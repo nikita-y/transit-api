@@ -8,9 +8,14 @@
 - The solution covers bus schedule only
 
 ## To build, run and deploy
-`make build`  - to build a docker image
-`make run`    - to run a docker container
-`make deploy` - to deploy transit-api service on a local kubernetes cluster (2 replicas)
+- `make build`  - to build a docker image
+- `make run`    - to run a docker container
+- `make deploy` - to deploy transit-api service on a local kubernetes cluster (2 replicas)
+
+## To run the project on local machine
+1. `pip3 install -r requirements.txt`
+2. unzip the archive into `src/data/bus/`
+3. `cd src && python3 app.py`
 
 ## To test
 The endpoint takes 2 parameters `origin_station_id` and `destination_station_id`

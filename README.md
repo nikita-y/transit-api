@@ -1,6 +1,11 @@
 ![Docker](https://github.com/nikita-y/transit-api/workflows/Docker/badge.svg)
 # Endpoint returns list of ETA and ETD for gitven orgin and destination bus/rail stop codes
 
+  * [Notes](#notes)
+  * [To build, run and deploy](#to-build--run-and-deploy)
+  * [To run the project on local machine](#to-run-the-project-on-local-machine)
+  * [To test](#to-test)
+
 ## Notes
 - Docker image is avalible on DockerHub [here](https://hub.docker.com/repository/docker/nikitany/transit-api)
 - Github Action is set up to build a new image and push it to DockerHub.

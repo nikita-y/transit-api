@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Docker login
-        run: docker login -u ${DH_LOGIN} -p ${DH_PASS}
+        run: docker login --password-stdin -u ${DH_LOGIN} -p ${DH_PASS}
 
       - name: Build the Docker image
         run: |
